@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');header {
+    background-color: rgba(193,135,111,0.6);
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -5px 60px 0px purple;
+}
+
+header img {
+    margin-right: 2em;
+
+}
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    color: rgba(254,202,27,.9);
+
+}
+.pokeMain menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+main menu #pokeName {
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 1.9em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    border: none;
+    box-shadow: none;
+    width: 14em;
+    letter-spacing: 1.4px;
+}
+
+.pokeMain menu .btnSearch {
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 15px;
+}
+
+.btnSearch img {
+    width: 2.5em;
+}
+
+.pokeMain menu {
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+}
+
+.pokeMain {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(210,170,108,0.6);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.pokeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(193,135,111,0.6);
+    width: 99%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.arrowControls {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.arrowControls button {
+    background-color: rgba(119,56,177,0.5);
+    width: 5em;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.arrowControls button:hover {
+    transform:scale(1.1);
+}
+
+.hideCard {
+    background-color: rgba(119,56,177,0.5);
+    width: 6em;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

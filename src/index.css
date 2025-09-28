@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background:linear-gradient(0.25turn, rgb(191,134,110),rgb(211,172,108)) ;
+    font-family: "Press Start 2P";
+}

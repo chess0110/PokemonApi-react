@@ -1,0 +1,48 @@
+.pokemonListAdding {
+    background-color: ;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemonListAdding ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.pokemonListAdding ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.pokemonListAdding ul li button {
+    padding: 15px 10px;
+    border: none;
+    background-color: rgba();
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 10em;
+}
+
+.pokemonListAdding ul li button:hover {
+    transform:scale(1.05);
+
+}
+
+.HideShow {
+    background-color: rgba(119,56,177,0.5);
+    width: 5em;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0px 4px 0px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
